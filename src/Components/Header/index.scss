@@ -1,0 +1,57 @@
+$headingColor: #403e57;
+.logo-header {
+    .logo-title {
+        color: $headingColor;
+    }
+    .logo-image {
+        vertical-align: middle;
+        height: 45px;
+    }
+    font-weight: 900;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-right: 105px;
+}
+
+// this is the header css
+.header-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px 20px;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+    text-transform: none;
+    background-color: rgb(8, 88, 247);
+}
+
+.header-toggle {
+    .menu-open-icon {
+        font-size: 24px;
+    }
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+}
+
+.header-search-form {
+    width: 280px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(8, 88, 247);
+    .button-search {
+        align-items: center;
+        width: 24px;
+        height: 24px;
+        margin: 0 0 0 12px;
+    }
+    input {
+        width: 244px;
+        height: 100%;
+        font-size: 15px;
+    }
+}
